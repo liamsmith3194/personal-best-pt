@@ -32,14 +32,15 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
         1. ?
         2. ?
         3. ?
-        
+
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The two main colours used are black and white.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The striking Bebas Neue typeface works really well with Montserrat, used for the main body of the website. The difference in style creates a clean modern look and feel. Both typefaces have a fallback of sans-serif incase of any import issues.
     -   #### Imagery
         -   The first thing you see if the background hero image and horizontal tag line, designed to stun the vistor's attention and draw them in to see what is on offer.
+        - The use of opacity and imagery increases the clean and consise theme of the website but still informing the user of the options available.
 
 *   ### Wireframes
 
