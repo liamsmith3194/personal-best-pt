@@ -37,14 +37,14 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
     -   #### Colour Scheme
         -   The two main colours used are black and white.
     -   #### Typography
-        -   The striking Bebas Neue typeface works really well with Montserrat, used for the main body of the website. The difference in style creates a clean modern look and feel. Both typefaces have a fallback of sans-serif incase of any import issues.
+        -   The striking Bebas Neue typeface works really well with conserative Montserrat; used for the main body of the website. The difference in style creates a clean modern look and feel. Both typefaces have a fallback of sans-serif incase of any import issues.
     -   #### Imagery
-        -   The first thing you see if the background hero image and horizontal tag line, designed to stun the vistor's attention and draw them in to see what is on offer.
+        -   The first thing you see is the background hero image and horizontal tag line, designed to stun the vistor's attention and draw them in to see what is on offer.
         - The use of opacity and imagery increases the clean and consise theme of the website but still informing the user of the options available.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Figma Wireframe - [View](https://www.figma.com/file/tCFc2KjZXoKyhLA5IGsVam/Code-Institute-Portfolio-1?node-id=0%3A1)
 
     -   Mobile Wireframe - [View](https://github.com/)
 
@@ -70,7 +70,7 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Bebas Neue' font into the style.css file which is used on logo and sub headings thorughout the site.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)
