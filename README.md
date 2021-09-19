@@ -14,15 +14,15 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
     -   #### First Time Visitor Goals
 
-        1. As a first time vistor, I want a clear understanding of the purpose of the website.
-        2. As a first time vistor, I want a consise description of the fitness goals this personal trainer concentrates on.
-        3. As a first time vistor, I want the feel comfortable with the content and imagery I am are viewing.
-        4. As a first time vistor, I need to know where the company is based and how to get there.
-        5. As a first time vistor, I want to know about the personal trainer
+    1. As a first time vistor, I want a clear understanding of the purpose of the website.
+    2. As a first time vistor, I want a consise description of the fitness goals this personal trainer concentrates on.
+    3. As a first time vistor, I want the feel comfortable with the content and imagery I am are viewing.
+    4. As a first time vistor, I need to know where the company is based and how to get there.
+    5. As a first time vistor, I want to know about the personal trainer
         - What qualifications does he have?
         - How long has the personal trainer been working for?
         - Why should I book a session?
-        6. As a first time vistor, can I trust this person? Have they been reviewed well by previous clients are they numerous testimonials for me to look at. Do they have a social media presence which is regularly updated and followed.
+    6. As a first time vistor, can I trust this person? Have they been reviewed well by previous clients are they numerous testimonials for me to look at. Do they have a social media presence which is regularly updated and followed.
         
 
     -   ### Design
