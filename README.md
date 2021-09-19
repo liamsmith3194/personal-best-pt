@@ -5,6 +5,7 @@
 Welcome to the Personal Best PT website! Created to attract new and regular gym goers to try personal training, no matter what their goals are.
 Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
+## Replace screenshot when complete!
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
 ## User Experience (UX)
@@ -13,14 +14,15 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want a consise easy to understand description of the training methods offered. REWORD LATER
-        2. As a First Time Visitor, I want the feel comfortable with the content and imagery I am are viewing.
-        3. As a First Time Visitor, I need to know where the company is based and how to get there.
-        4. As a First Time Visitor, I want to know about the personal trainer
+        1. As a First Time Visitor, I want a clear understanding of the purpose of the website.
+        1. As a First Time Visitor, I want a consise description of the fitness goals this personal trainer concentrates on.
+        1. As a First Time Visitor, I want the feel comfortable with the content and imagery I am are viewing.
+        1. As a First Time Visitor, I need to know where the company is based and how to get there.
+        1. As a First Time Visitor, I want to know about the personal trainer
         - What qualifications does he have?
         - How long has the PT been working for?
         - Why should I book a session?
-        5. As a First Time Visitor, can I trust this person? Have they been reviewed well by previous clients are they numerous testimonials for me to look at. Do they have a social media presence which is regularly updated and followed.
+        6. As a First Time Visitor, can I trust this person? Have they been reviewed well by previous clients are they numerous testimonials for me to look at. Do they have a social media presence which is regularly updated and followed.
 
     -   #### Returning Visitor Goals
 
@@ -46,10 +48,6 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
     -   Figma Wireframe - [View](https://www.figma.com/file/tCFc2KjZXoKyhLA5IGsVam/Code-Institute-Portfolio-1?node-id=0%3A1)
 
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
-
 ## Features
 
 -   Responsive on all device sizes
@@ -65,29 +63,23 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Bebas Neue' font into the style.css file which is used on logo and sub headings thorughout the site.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Font Awesome was used on one or two headings and sub headings for a fun attractive effect.
+1. [Gitpod](https://gitpod.io/)
+    - Gitpod was used for the general creation of the site and version control by utilizing the terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+    - GitHub is used to store the projects code after being pushed from Gitpod.
 1. [Figma:](https://figma.com/)
-    - Figma was used to create the [wireframes](https://github.com/) during the design process.
+    - Figma was used to create the wireframes during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results TBC](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results TBC](https://github.com/)
 
 ### Testing User Stories from User Experience (UX) Section
 
