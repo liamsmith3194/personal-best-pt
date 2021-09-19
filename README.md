@@ -1,4 +1,4 @@
-<h1 align="center">Personal Best PT Website</h1>
+# Personal Best PT Website #
 
 [View the live project here.](https://liamsmith3194.github.io/personal-best-pt/)
 
@@ -13,28 +13,33 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As a First Time Visitor, I want a consise easy to understand description of the training methods offered. REWORD LATER
+        2. As a First Time Visitor, I want the feel comfortable with the content and imagery I am are viewing.
+        3. As a First Time Visitor, I need to know where the company is based and how to get there.
+        4. As a First Time Visitor, I want to know about the personal trainer
+        - What qualifications does he have?
+        - How long has the PT been working for?
+        - Why should I book a session?
+        5. As a First Time Visitor, can I trust this person? Have they been reviewed well by previous clients are they numerous testimonials for me to look at. Do they have a social media presence which is regularly updated and followed.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. ?
+        2. ?
+        3. ?
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-
+        1. ?
+        2. ?
+        3. ?
+        
 -   ### Design
     -   #### Colour Scheme
         -   The two main colours used are Code Insititue red, and white.
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The first thing you see if the background hero image and horizontal tag line, designed to stun the vistor's attention and draw them in to see what is on offer.
 
 *   ### Wireframes
 
@@ -67,16 +72,14 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Figma:](https://figma.com/)
+    - Figma was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
 
@@ -207,8 +210,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 -   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
