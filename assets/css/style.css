@@ -6,6 +6,7 @@ h1 {
     font-size: 50px;
     letter-spacing: 10px;
     font-weight: lighter;
+    padding-left: 10px;
 }
 
 h2 {
@@ -20,4 +21,24 @@ h2 {
 body {
     font-family: 'montserrat', sans-serif;
     font-weight: lighter;
+}
+
+header {
+    height: 10px;
+}
+
+.navbar li {
+    display: inline;
+    float: right;
+    padding: 20px;
+}
+
+nav {
+    height: 20px;
+}
+
+#hero-image {
+    float: right;
+    width: 100%;
+
 }
