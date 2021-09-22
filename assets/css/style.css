@@ -10,7 +10,30 @@
     border: none;
 }
 
-/* logo*/
+/* Text */
+
+body {
+    font-family: 'montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: lighter;   
+}
+
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: lighter;   
+}
+
+/* Home Page*/
 
 #logo {
     font-family: 'Bebas Neue', sans-serif;
@@ -23,22 +46,7 @@
     color: black;
 }
 
-
-/* other text elements*/
-
-h2 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 60px;
-    text-align: center;
-    letter-spacing: 10px;
-    font-weight: lighter;
-    
-}
-
-body {
-    font-family: 'montserrat', sans-serif;
-    font-weight: lighter;
-}
+/* Tag Line*/
 
 #tag-heading {
     width: 100%;
@@ -61,7 +69,7 @@ body {
     
 }
 
-/* Menu bar-*/
+/* Menu bar*/
 
 #menu li{
     display: inline;
@@ -82,9 +90,6 @@ body {
     line-height: 100px;
 }
 
-
-/* images*/
-
 #hero-image {
     width: 100%;
     height: 700px;
@@ -92,7 +97,16 @@ body {
     position: relative;
 }
 
+/* Services Page*/
+
 #services-images {
-    width: 100%;
+    opacity: 0.75;
 
 }
+
+.image-caption {
+    text-align: center;
+    
+}
+
+/* About Page*/
