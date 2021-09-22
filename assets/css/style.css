@@ -14,7 +14,7 @@
 
 #logo {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 60px;
+    font-size: 70px;
     letter-spacing: 10px;
     font-weight: lighter;
     float: left;
@@ -28,7 +28,7 @@
 
 h2 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     letter-spacing: 10px;
     font-weight: lighter;
@@ -52,10 +52,13 @@ body {
 
 #tag-heading h2 {
     color: #FFFFFF;
-    text-align: center;
-    margin-top: 25px;
-    
+    margin-top: 15px;
+}
 
+.sub-heading {
+    height: 100px;
+    margin-top: 35px;
+    
 }
 
 /* Menu bar-*/
@@ -76,18 +79,20 @@ body {
 }
 
 #menu, #logo {
-    line-height: 70px;
+    line-height: 100px;
 }
 
 
-/* image*/
+/* images*/
 
 #hero-image {
     width: 100%;
     height: 700px;
     overflow: hidden;
     position: relative;
-    
-
 }
 
+#services-images {
+    width: 100%;
+
+}
