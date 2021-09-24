@@ -100,7 +100,7 @@ h3 {
 /* Services Page*/
 
 
-#services-1-image {
+#services-1-image, #services-2-image, #services-3-image {
     width: 100%;
     height: 200px;
     overflow: hidden;
@@ -109,16 +109,13 @@ h3 {
     opacity: 0.5;
 }
 
-#services-1-heading {
+#services-1-heading, #services-2-heading, #services-3-heading {
     width: 50%;
     height: 200px;
     top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-
-
-
     position: relative;
     overflow: hidden;
     bottom: 70px;
