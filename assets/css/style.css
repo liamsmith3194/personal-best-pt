@@ -99,26 +99,38 @@ h3 {
 
 /* Services Page*/
 
-
-#services-1-image, #services-2-image, #services-3-image {
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-    position: relative;
-    object-fit: cover;
-    opacity: 0.5;
-}
-
-#services-1-heading, #services-2-heading, #services-3-heading {
+.services-captions {
     width: 50%;
-    height: 200px;
-    top: 50%;
+    height: auto;
     left: 50%;
+    top: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    position: relative;
-    overflow: hidden;
-    bottom: 70px;
+    position: absolute;
+    opacity: none; 
 }
+
+
+  .container {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+    padding-top: 25px;
+    
+  }
+  
+  
+  .centered {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+  }
+
 
 /* About Page*/
