@@ -215,20 +215,31 @@ textarea {
 
 .form-section {
     clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
-    background-size: cover;
+    background: url("/assets/images/best-mens-gym-t-shirts.jpg");
     background-position: center;
-    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 450px;
 }
 
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
-    left: 10%;
+    left: 30%;
+}
+
+.contact-form {
+    
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    position: absolute;
     padding: 30px;
+    left: 22.5%;
+    height: 390px;
 }
 
 .signup-form h2 {
@@ -237,13 +248,13 @@ textarea {
 }
 
 .text-input {
-    background: transparent;
     color: #fafafa;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+    display: block;
 }
 
 .text-input:hover {
@@ -270,26 +281,34 @@ textarea {
 
 /* Social Media*/
 
-.social-media {
-    
-    text-align: center;
-}
-
-.social-media li {
-    font-size: 40px;
-    padding: 50px;
-    display: inline;
-    text-align: center;
-    color: black;
-}
-
-.social-media li a {
-    color: black;
-}
-
-
 
 footer {
     height: 100px;
 
 }
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+
+}
+
+.social-media i {
+    font-size: 360%;
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+}
+
+
+
+
+
+
+
+
+

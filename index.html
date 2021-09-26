@@ -185,69 +185,34 @@
         <h2 class="sub-heading">Why not come see me?</h2>
     </div>
 
-    <form action="http://formdump.codeinstitute.net" method="POST">
-        <fieldset>
-            <legend>
+    <section class="form-section">
+    <form action="http://formdump.codeinstitute.net" class="contact-form" method="POST">
+       
                 <h3>Sign Up</h3>
-            </legend>
-            <div>
-                <label for="name-field">Name:</label>
-                <input id="name-field" type="text" name="full-name" placeholder="Enter Name" required>
+                <label for="full-name">Name:</label>
+                <input id="full-name" type="text" name="full-name" class="text-input" placeholder="Enter Name" required>
             </div>
             <div>
                 <label for="email-field">Email:</label>
-                <input id="email-field" type="email" name="email-address" placeholder="Email Address" required>
+                <input id="email-field" type="email" name="email-address" class="text-input" placeholder="Email Address" required>
             </div>
             <div>
                 <label for="mobile-field">Contact No.:</label>
-                <input id="mobile-field" type="text" name="mobile-no" placeholder="Enter Number" required>
+                <input id="mobile-field" type="text" name="mobile-no" class="text-input" placeholder="Enter Number" required>
             </div>
             <div>
                 <label for="goal-field">Goal:</label>
-                <select id="goal-field" type="text" name="goal" required>
+                <select id="goal-field" type="text" class="text-input" name="goal" required>
                     <option>Please Select</option>
                     <option>Lose Weight</option>
                     <option>Gain Weight</option>
                     <option>Injuiry Recovery</option>
 
-                    <label for="details-field">Tell me more:</label>
-                <br>
-                <textarea id="details-field" rows="5" cols="50" name="details"></textarea>
-            </div>
-        </fieldset>
-        <div>
-            <fieldset>
-                
-        </div>
-        </fieldset>
-    </form>
-
-    <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
-            <label for="fname">First Name</label>
-            <input id="fname" class="text-input" name="first_name" type="text" required>
-            
-            <label for="lname">Last Name</label>
-            <input id="lname" class="text-input" name="last_name" type="text" required>
-            
-            <label for="email">Email Address</label>
-            <input type="email" class="text-input" id="email" name="email_address" required>
-            
-            <label for="road">Road</label>
-            <input type="radio" id="road" name="running_preference" value="road" required>
-            <label for="trail">Trail</label>
-            <input id="trail" type="radio" name="running_preference" value="trail" required>
-            <label for="both">Both</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
-            
-            <input class="join-button" type="submit" value="Let's Run!">
-        </form>
+                <input class="join-button" type="submit" value="Submit">
+        
+        
     </section>
-
-
-
-
+    </form>
 
     <div>
         <iframe
