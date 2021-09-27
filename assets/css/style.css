@@ -276,12 +276,18 @@ option {
 
 
 footer {
-    height: 100px;
+    height: 50px;
 
 }
 
 .social-media {
     text-align: center;
+    height: 50px;
+}
+
+.social-media ul {
+    height: 50px;
+
 }
 
 .social-media li {
@@ -291,7 +297,6 @@ footer {
 
 .social-media i {
     font-size: 300%;
-    margin: 1%;
     padding-left: 5%;
     padding-right: 5%;
     color: black;
