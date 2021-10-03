@@ -201,7 +201,7 @@ h4 {
 
 .form-section {
     clear: left;
-    background: url("/assets/images/best-mens-gym-t-shirts.jpg");
+    background: url("./assets/images/best-mens-gym-t-shirts.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
