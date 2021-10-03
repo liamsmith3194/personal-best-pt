@@ -155,28 +155,13 @@ h4 {
 
 /* About Page*/
 
-.about-me-section {
-    text-align: center;
-    float: left;
-    width: 65%;
+.about-sections {
     background-color: black;
-    margin-bottom: 25px;
     color: white;
-
-}
-
-.about-me {
     text-align: center;
+    width: 50%;
     padding: 25px;
-    color: white;
-
-}
-
-#pt-image {
-    float: right;
     margin-bottom: 25px;
-    padding-bottom: 25px;
-
 }
  
 
