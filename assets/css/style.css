@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+
 /* all content*/
 
 * {
@@ -65,17 +66,22 @@ h4 {
     color: black;
 }
 
+#hero-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
 /* Tag Line*/
 
 #tag-heading {
     width: 100%;
     height: 100px;
-    margin-bottom: 150px;
     background-color: rgba(0, 0, 0, 0.6);
     color: #FFFFFF;
-    bottom: 100px;
+    bottom: 15%;
     position: absolute;
-    margin-top: 15px;
 
 }
 
@@ -109,28 +115,11 @@ h4 {
     line-height: 100px;
 }
 
-#hero-image {
-    width: 100%;
-    height: 700px;
-    overflow: hidden;
-    position: relative;
-}
+
 
 /* Services Page*/
 
-.services-captions {
-    width: 50%;
-    height: auto;
-    left: 50%;
-    top: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    opacity: none; 
-}
-
-
-  .container {
+  .services-images {
     width: 100%;
     height: 200px;
     text-align: center;
@@ -141,7 +130,7 @@ h4 {
 }
   
   
-  .centered {
+  .services-text {
     width: 100%;
     position: absolute;
     padding: 25px;
@@ -165,9 +154,7 @@ h4 {
 }
 
 #pt-image {
-    float: right;
-    margin-right: 12%;
-    object-fit: cover;
+    text-align: right;
 
 }
  
@@ -187,19 +174,11 @@ h4 {
     margin-bottom: 25px;
 }
 
-.blockquote {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    letter-spacing: 10px;
-    font-weight: lighter;
-}
-
 /* Contact Page*/
 
 /* Form */
 
-.form-section {
+.form-image {
     clear: left;
     background: url("/assets/images/best-mens-gym-t-shirts.jpg");
     background-position: center;
@@ -265,8 +244,7 @@ option {
 
 .submit-button {
     float: right;
-    margin-top: 50px;
-    margin-right: 215px;
+    margin-top: 1%;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
@@ -329,15 +307,37 @@ footer {
 
         #logo, #menu #tag-heading, #hero-image, #pt-image {
             width: 100%;
+            height: auto;
             float: left;
             margin-right: 0;
             margin-left: 0;
             
+    }
+
+    #logo {
+        font-size: 6vw;
+
+    .sub-heading {
+        font-size: 5vw;
         }
 
-      
-}
+    h2 {
+          font-size: 5vw;
+          white-space:no-wrap
+    }
 
+    h3 {
+        font-size: 4vw;
+    }
+
+    h4 {
+        font-size: 3vw;
+    }
+
+    #menu li{
+        text-align: left;
+    }
+}
 
 
 
