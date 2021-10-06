@@ -147,31 +147,38 @@ h4 {
     background-color: black;
     color: white;
     text-align: center;
-    width: 50%;
+    width: auto;
     padding: 25px;
-    margin-bottom: 25px;
+    margin: 0 25px 25px 25px;
+  
 }
 
 #pt-image {
-    text-align: right;
+    width: auto;
+    float: right;
+    border: 25px solid white;
+  }
 
-}
  
 
 /* Testimonials Page*/
 
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+  }
+
+
 .testimonials {
-    width: 40%;
-    height: 130px;
+    max-width: 40%;
     border: black;
     border-style: double;
     color: black;
     padding: 25px;
-    margin-left: 80px;
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 25px;
+    margin: 25px;
+
 }
+
 
 /* Contact Page*/
 
@@ -295,7 +302,7 @@ footer {
     /* larger to medium screens size from 1200px wide and smaller */
 
     @media screen and (max-width: 1200px) {
-        .testimonials, .about-sections, .container, .sub-heading, .form-section {
+        .testimonials, .testimonials-container .about-sections, .container, .sub-heading, .form-section {
             width: 100%;
             float: left;
             margin-right: 0;
