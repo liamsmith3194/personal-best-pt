@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    
 }
 
 
@@ -302,49 +303,7 @@ footer {
     /* larger to medium screens size from 1200px wide and smaller */
 
     @media screen and (max-width: 1200px) {
-        .testimonials, .testimonials-container .about-sections, .container, .sub-heading, .form-section {
-            width: 100%;
-            float: left;
-            margin-right: 0;
-            margin-left: 0;
-            
-        
-        }
-
-        #logo, #menu #tag-heading, #hero-image, #pt-image {
-            width: 100%;
-            height: auto;
-            float: left;
-            margin-right: 0;
-            margin-left: 0;
-            
-    }
-
-    #logo {
-        font-size: 6vw;
-
-    .sub-heading {
-        font-size: 5vw;
-        }
-
-    h2 {
-          font-size: 5vw;
-          white-space:no-wrap
-    }
-
-    h3 {
-        font-size: 4vw;
-    }
-
-    h4 {
-        font-size: 3vw;
-    }
-
-    #menu li{
-        text-align: left;
-    }
-}
-
+         
 
 
 
