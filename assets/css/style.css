@@ -143,6 +143,21 @@ h4 {
   
 }
 
+.about-sections2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 50%;
+    padding: 25px;
+    margin: 0 25px 25px 25px;
+    flex-grow: 4; /* default 0 */
+  
+}
+
+#pt-image2 {
+    float: right;
+}
+
 #pt-container {
     height: 520px;
     margin: 0 25px 0 25px;
@@ -151,6 +166,10 @@ h4 {
     background-color: white;
     
 }
+
+.container {
+    display: flex; /* or inline-flex */
+  }
  
 
 /* Testimonials Page*/
@@ -188,7 +207,7 @@ h4 {
 .contact-form {
     
     color: white;
-    font-size: 12pt;
+    font-size: 100;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.6);
     width: 70%;
@@ -209,7 +228,7 @@ h4 {
     display: inline-block;
     font-family: 'montserrat', sans-serif;
     font-weight: lighter;
-    font-size: 11pt;
+    font-size: 100%;
 }
 
 .text-input:hover {
@@ -221,14 +240,20 @@ h4 {
 
 option {
     color: black;
-    font-size: 14px;
+    font-size: 100%;
     font-family: 'montserrat', sans-serif;
     font-weight: lighter;
 }
 
+option:hover {
+    color: white;
+    background-color: black;
+
+}
+
 ::placeholder {
     color: white;
-    font-size: 11pt;
+    font-size: 100%;
     font-family: 'montserrat', sans-serif;
     font-weight: lighter;
 }
