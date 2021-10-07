@@ -57,7 +57,7 @@ h4 {
 
 #logo {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 70px;
+    font-size: 65px;
     letter-spacing: 10px;
     font-weight: lighter;
     float: left;
@@ -66,23 +66,13 @@ h4 {
     color: black;
 }
 
-#hero-image {
-    width: 100%;
-    height: 45vw;
-    overflow: hidden;
-    position: relative;
-}
-
 .hero-image {
     width: 100%;
-    height: 45vw;
+    height: auto;
     overflow: hidden;
     position: relative;
+    
 }
-
-/* Tag Line*/
-
-
 
 .tag-heading {
     width: 100%;
@@ -91,12 +81,6 @@ h4 {
     bottom: 15%;
     position: absolute;
 }
-
-
-
-
-
-
 
 /* Menu bar*/
 
@@ -308,6 +292,27 @@ footer {
 
     @media screen and (max-width: 1200px) {
          
+.testimonials, .testimonials-container {
+    width: 100%;
+    }
 
+}
+
+
+/* medium screens size from 950px wide and down */
+
+@media screen and (max-width: 1024px) {
+
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 25px;
+        line-height: 25px;
+    }
+
+
+}
 
 
