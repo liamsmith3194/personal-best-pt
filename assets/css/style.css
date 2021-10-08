@@ -137,29 +137,8 @@ h4 {
     background-color: black;
     color: white;
     text-align: center;
-    width: 50%;
-    padding: 25px;
-    margin: 0 25px 25px 25px;
-  
-}
-
-.about-sections2 {
-    background-color: black;
-    color: white;
-    text-align: center;
     padding: 25px;
   
-}
-
-
-
-#pt-container {
-    height: 520px;
-    margin: 0 25px 0 25px;
-    padding: 0 25px 25px 25px;
-    float: right;
-    background-color: white;
-    
 }
 
 .item1 { grid-area: general; }
@@ -171,19 +150,9 @@ h4 {
     grid-template-areas:
       'general general image'
       'quali quali image';
-    grid-gap: 10px;
+    grid-gap: 25px;
   }
   
-  
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px 0;
-  }
-
-
-
-
-
 /* Testimonials Page*/
 
 .testimonials-container {
