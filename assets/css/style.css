@@ -110,7 +110,7 @@ h4 {
 
   .services-images {
     width: 100%;
-    height: 12vw;
+    height: 14vw;
     text-align: center;
     overflow: hidden;
     object-fit: cover;
@@ -141,22 +141,40 @@ h4 {
   
 }
 
-.item1 { grid-area: general; }
-.item2 { grid-area: quali; }
-.item3 { grid-area: image; }
+.item1 { 
+    grid-area: general; 
+}
+
+.item2 { 
+    grid-area: quali; 
+}
+
+.item3 { 
+    grid-area: image;
+    width: 100%;
+    height: 88%;
+    text-align: center;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+
+}
  
 .grid-container {
     display: grid;
     grid-template-areas:
-      'general general image'
-      'quali quali image';
+    'general image image'
+    'quali image image';
     grid-gap: 25px;
+    margin: 0 25px;
+
   }
   
 /* Testimonials Page*/
 
 .testimonials-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
   }
 
@@ -312,7 +330,45 @@ footer {
         line-height: 25px;
     }
 
+}
+
+@media screen and (max-width: 768px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 25px;
+        line-height: 25px;
+    }
+
+
+    .testimonials-container .grid-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .services-text {
+        height: auto;
+    }
 
 }
 
+@media screen and (max-width: 425px) {
 
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 25px;
+        line-height: 25px;
+    }
+
+    .services-images, .grid-container, {
+        width: 100%;
+    }
+    .services-text {
+        height: auto;
+    }
+
+}
