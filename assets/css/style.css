@@ -47,7 +47,7 @@ h4 {
 
 .sub-heading {
     height: 100px;
-    margin-top: 35px;
+    margin-top: 1%;
     background-color: white;
 
     
@@ -139,6 +139,7 @@ h4 {
     color: white;
     text-align: center;
     padding: 25px;
+
   
 }
 
@@ -147,7 +148,8 @@ h4 {
 }
 
 .item2 { 
-    grid-area: quali; 
+    grid-area: quali;
+    
 }
 
 .item3 { 
@@ -178,11 +180,13 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+
   }
 
 
 .testimonials {
-    max-width: 40%;
+    width: 40%;
     border: black;
     border-style: double;
     color: black;
@@ -190,42 +194,6 @@ h4 {
     margin: 0 25px 25px 25px;
 }
 
-.flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    border: 1px solid silver;
-    -ms-box-orient: horizontal;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: flex;
-  }
-  
-
-  
-  .wrap { 
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .flex-item {
-
-    border: black;
-    border-style: double;
-    color: black;
-    padding: 25px;
-    margin: 0 25px 25px 25px;
-
-    background: gold;
-    width: 40%;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-  }
 
 /* Contact Page*/
 
@@ -347,11 +315,14 @@ footer {
 
     @media screen and (max-width: 1200px) {
          
+
+
+}
+
+@media screen and (max-width: 1058px) {
 .testimonials, .testimonials-container {
     width: 100%;
     }
-
-}
 
 
 /* medium screens size from 950px wide and down */
@@ -359,13 +330,9 @@ footer {
 @media screen and (max-width: 1024px) {
 
 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 25px;
-        line-height: 25px;
-    }
+    
+
+    
 
 
 
@@ -381,6 +348,10 @@ footer {
         line-height: 25px;
     }
 
+    .testimonials .testimonials-container {
+        max-width: 25%;
+    }
+
     h2 {
         font-size: 300%;
     }
@@ -393,8 +364,9 @@ footer {
         font-size: 260%;
     }
 
-    body {
-        font-size: 80%;
+
+    .about-sections{
+        width: 100%;
     }
 
 
