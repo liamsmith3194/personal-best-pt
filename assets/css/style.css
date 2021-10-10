@@ -16,6 +16,7 @@
 /* Text */
 
 body {
+    font-size: 100%;
     font-family: 'montserrat', sans-serif;
     font-weight: lighter;
 }
@@ -169,6 +170,7 @@ h4 {
     margin: 0 25px;
 
   }
+
   
 /* Testimonials Page*/
 
@@ -186,9 +188,44 @@ h4 {
     color: black;
     padding: 25px;
     margin: 0 25px 25px 25px;
-
 }
 
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid silver;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+
+  
+  .wrap { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flex-item {
+
+    border: black;
+    border-style: double;
+    color: black;
+    padding: 25px;
+    margin: 0 25px 25px 25px;
+
+    background: gold;
+    width: 40%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+  }
 
 /* Contact Page*/
 
@@ -330,6 +367,8 @@ footer {
         line-height: 25px;
     }
 
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -342,33 +381,44 @@ footer {
         line-height: 25px;
     }
 
-
-    .testimonials-container .grid-container {
-        width: 100%;
-        flex-direction: column;
+    h2 {
+        font-size: 300%;
     }
 
-    .services-text {
-        height: auto;
+    h3 {
+        font-size: 280%;
     }
+
+    h4 {
+        font-size: 260%;
+    }
+
+    body {
+        font-size: 80%;
+    }
+
+
+   
 
 }
 
 @media screen and (max-width: 425px) {
 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 25px;
-        line-height: 25px;
+    h2 {
+        font-size: 280%;
     }
 
-    .services-images, .grid-container, {
-        width: 100%;
+    h3 {
+        font-size: 260%;
     }
-    .services-text {
-        height: auto;
+
+    h4 {
+        font-size: 240%;
+    }
+
+    body {
+        font-size: 60%;
     }
 
 }
+
