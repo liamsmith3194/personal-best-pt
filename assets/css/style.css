@@ -68,14 +68,26 @@ h4 {
     color: black;
 }
 
-.hero-image {
+#hero-image {
     width: 100%;
     height: auto;
     overflow: hidden;
     position: relative;
     margin-bottom: 25px;
-    
+   
 }
+
+#hero-image img{
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+  
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
 
 .tag-heading {
     width: 100%;
@@ -182,7 +194,7 @@ h4 {
 .contact-form {
     margin: auto;
     color: white;
-    font-size: 100;
+    font-size: 100%;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.6);
     width: 70%;
@@ -349,6 +361,50 @@ footer {
     body {
         font-size: 60%;
     }
-
 }
 
+@media screen and (max-width: 375px) {
+
+    #logo {
+        font-size: 300%;
+    }
+
+    h2 {
+        font-size: 260%;
+    }
+
+    h3 {
+        font-size: 240%;
+    }
+
+    h4 {
+        font-size: 220%;
+    }
+
+    body {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    #logo {
+        font-size: 280%;
+    }
+
+    h2 {
+        font-size: 240%;
+    }
+
+    h3 {
+        font-size: 220%;
+    }
+
+    h4 {
+        font-size: 200%;
+    }
+
+    body {
+        font-size: 40%;
+    }
+}
