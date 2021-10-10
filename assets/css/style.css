@@ -48,7 +48,7 @@ h4 {
 .sub-heading {
     height: 1%; /* was 100px*/
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 25px;
     background-color: white;
 
     
@@ -73,6 +73,7 @@ h4 {
     height: auto;
     overflow: hidden;
     position: relative;
+    margin-bottom: 25px;
     
 }
 
@@ -140,44 +141,10 @@ h4 {
     color: white;
     text-align: center;
     padding: 25px;
+    margin-bottom: 25px;
 
-  
 }
-
-.item1 { 
-    grid-area: general; 
-}
-
-.item2 { 
-    grid-area: quali;
-    
-}
-
-.item3 { 
-    grid-area: image;
-}
- 
-.grid-container {
-    display: grid;
-    grid-template-areas:
-    'general image image'
-    'quali image image';
-    grid-gap: 25px;
-    margin: 0 25px;
-
-  }
-
-  .gfg {
-      width:auto;
-      text-align:center;
-      padding:20px;
-  }
-  img {
-      max-width:100%;
-              height:auto;
-  }
-
-  
+   
 /* Testimonials Page*/
 
 .testimonials-container {
@@ -359,11 +326,11 @@ footer {
         font-size: 260%;
     }
 
-    .about-sections{
+    .about-sections .services-images{
         width: 100%;
     }
 
-}
+   }
 
 @media screen and (max-width: 425px) {
 
