@@ -46,8 +46,9 @@ h4 {
 }
 
 .sub-heading {
-    height: 100px;
+    height: 1%; /* was 100px*/
     margin-top: 1%;
+    margin-bottom: 1%;
     background-color: white;
 
     
@@ -154,13 +155,6 @@ h4 {
 
 .item3 { 
     grid-area: image;
-    width: 100%;
-    height: 88%;
-    text-align: center;
-    overflow: hidden;
-    object-fit: cover;
-    position: relative;
-
 }
  
 .grid-container {
@@ -171,6 +165,16 @@ h4 {
     grid-gap: 25px;
     margin: 0 25px;
 
+  }
+
+  .gfg {
+      width:auto;
+      text-align:center;
+      padding:20px;
+  }
+  img {
+      max-width:100%;
+              height:auto;
   }
 
   
@@ -209,16 +213,15 @@ h4 {
 }
 
 .contact-form {
-    
+    margin: auto;
     color: white;
     font-size: 100;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.6);
     width: 70%;
-    position: absolute;
     padding: 30px;
-    left: 12%;
     height: 390px;
+    
 }
 
 .text-input {
@@ -281,21 +284,15 @@ option:hover {
 
 /* Social Media*/
 
-
 footer {
-    height: 50px;
+    height: 10px;
 
 }
 
 .social-media {
     text-align: center;
-    height: 50px;
 }
 
-.social-media ul {
-    height: 50px;
-
-}
 
 .social-media li {
     display: inline;
@@ -304,8 +301,8 @@ footer {
 
 .social-media i {
     font-size: 300%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 0 5%;
+    margin: 1%;
     color: black;
 }
 
@@ -329,16 +326,14 @@ footer {
 
 @media screen and (max-width: 1024px) {
 
-
-    
-
-    
-
-
-
 }
 
 @media screen and (max-width: 768px) {
+
+    #logo {
+        margin: 0 auto;
+        text-align: center;
+    }
 
     #menu {
         clear: left;
@@ -348,8 +343,8 @@ footer {
         line-height: 25px;
     }
 
-    .testimonials .testimonials-container {
-        max-width: 25%;
+    #menu ul {
+        width: 100%;
     }
 
     h2 {
@@ -364,13 +359,9 @@ footer {
         font-size: 260%;
     }
 
-
     .about-sections{
         width: 100%;
     }
-
-
-   
 
 }
 
