@@ -342,60 +342,10 @@ footer {
 
    }
 
-@media screen and (max-width: 425px) {
 
-    #logo {
-        font-size: 320%;
-    }
-
-    h2 {
-        font-size: 280%;
-    }
-
-    h3 {
-        font-size: 260%;
-    }
-
-    h4 {
-        font-size: 240%;
-    }
-
-    body {
-        font-size: 80%;
-    }
-
-    .services-images {
-        height: 170px;
-    }
 }
 
-@media screen and (max-width: 375px) {
-
-    #logo {
-        font-size: 300%;
-    }
-
-    h2 {
-        font-size: 260%;
-    }
-
-    h3 {
-        font-size: 240%;
-    }
-
-    h4 {
-        font-size: 220%;
-    }
-
-    body {
-        font-size: 65%;
-    }
-    .services-images {
-        height: 120px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
 
     #logo {
         font-size: 280%;
