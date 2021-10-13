@@ -351,6 +351,10 @@ footer {
         font-size: 280%;
     }
 
+    #menu {
+        font-size: 90%;
+    }
+
     h2 {
         font-size: 240%;
     }
@@ -370,4 +374,5 @@ footer {
     .services-images {
         height: 100px;
     }
+
 }
