@@ -312,9 +312,23 @@ footer {
         margin-bottom: 1%;
         line-height: 25px;
     }
-}
 
+    #pt-image {
+        float: unset;
+        margin: 0 auto;
+        display: block;
+        width: 60%;
+    }
+
+    .about-text {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+/* Tablet (ipad)*/
 @media screen and (max-width: 768px) {
+    
+    
 
     #logo {
         margin: 0 auto;
@@ -378,15 +392,4 @@ footer {
         height: 100px;
     }
 
-    #pt-image {
-        float: unset;
-        margin: 0 auto;
-        display: block;
-        width: 70%;
-    }
-
-    .about-text {
-        width: 100%;
-        margin: 0 auto;
-    }
-}
+  }
