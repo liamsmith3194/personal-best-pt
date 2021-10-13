@@ -11,8 +11,6 @@
     
 }
 
-
-
 /* Text */
 
 body {
@@ -51,8 +49,6 @@ h4 {
     margin-bottom: 25px;
     background-color: white;
 
-    
-    
 }
 
 /* Home Page*/
@@ -74,15 +70,12 @@ h4 {
     overflow: hidden;
     position: relative;
     margin-bottom: 25px;
-   
 }
 
 #hero-image img{
     animation-name: example;
     animation-duration: 4s;
 }
-
-  
 
 @keyframes example {
     from {background-color: red;}
@@ -119,9 +112,6 @@ h4 {
     border-bottom: 1px solid #000000;
 }
 
-
-
-
 /* Services Page*/
 
   .services-images {
@@ -132,9 +122,8 @@ h4 {
     object-fit: cover;
     position: relative;
     margin-bottom: 25px;
-}
-  
-  
+}  
+
   .services-text {
     width: 100%;
     height: auto;
@@ -147,7 +136,6 @@ h4 {
     color: #FFFFFF;
   }
 
-
 /* About Page*/
 
 .about-sections {
@@ -156,8 +144,29 @@ h4 {
     text-align: center;
     padding: 25px;
     margin-bottom: 25px;
-
 }
+
+.about-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 25px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.about-text {
+    margin-bottom: 25px;
+}
+
+
+
+.about-section img {
+    float: right;
+    width: 50%;
+    padding: 25px;
+
    
 /* Testimonials Page*/
 
@@ -166,9 +175,7 @@ h4 {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-
   }
-
 
 .testimonials {
     width: 40%;
@@ -178,7 +185,6 @@ h4 {
     padding: 25px;
     margin: 0 25px 25px 25px;
 }
-
 
 /* Contact Page*/
 
@@ -202,7 +208,6 @@ h4 {
     width: 70%;
     padding: 30px;
     height: 390px;
-    
 }
 
 .text-input {
@@ -225,7 +230,6 @@ h4 {
     font-weight: lighter;
 }
 
-
 option {
     color: black;
     font-size: 100%;
@@ -236,7 +240,6 @@ option {
 option:hover {
     color: white;
     background-color: black;
-
 }
 
 ::placeholder {
@@ -253,31 +256,25 @@ option:hover {
     font-size: 100%;
     background-color: white;
     color: black;
-   
 }
 
 .submit-button:hover {
     background-color:black;
     color: white;
-    
 }
-
 
 /* Social Media*/
 
 footer {
     height: 10px;
-
 }
 
 .social-media {
     text-align: center;
 }
 
-
 .social-media li {
     display: inline;
-
 }
 
 .social-media i {
@@ -292,8 +289,6 @@ footer {
     /* larger to medium screens size from 1200px wide and smaller */
 
     @media screen and (max-width: 1200px) {
-         
-
 
 }
 
@@ -301,7 +296,6 @@ footer {
 .testimonials, .testimonials-container {
     width: 100%;
     }
-
 
 /* medium screens size from 950px wide and down */
 
@@ -340,14 +334,10 @@ footer {
         font-size: 260%;
     }    
 
-   }
-
-
 }
 
 @media screen and (max-width: 600px) {
     /* small screens size from 6000px wide and down */
-
 
     #logo {
         font-size: 280%;
