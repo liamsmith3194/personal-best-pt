@@ -185,7 +185,7 @@ h4 {
 /* Form */
 
 .form-image {
-    background-image: url("../images/best-mens-gym-t-shirts.jpg");
+    background: url("../images/best-mens-gym-t-shirts.jpg")
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
