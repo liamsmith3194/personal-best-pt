@@ -281,7 +281,7 @@ footer {
 }
 
 .social-media i {
-    font-size: 300%;
+    font-size: 250%;
     padding: 0 5%;
     margin: 1%;
     color: black;
@@ -346,6 +346,8 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    /* small screens size from 6000px wide and down */
+
 
     #logo {
         font-size: 280%;
