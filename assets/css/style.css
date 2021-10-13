@@ -59,6 +59,7 @@ h4 {
     letter-spacing: 10px;
     font-weight: lighter;
     float: left;
+    margin-top: 10px;
     padding-left: 30px;
     text-decoration: none;
     color: black;
@@ -151,24 +152,17 @@ h4 {
     width: 100%;
     height: auto;
     overflow: hidden;
-
-
-}
-
-.about-section {
-    
+    margin-bottom: 25px;
 }
 
 .about-text {
     color: white;
     text-align: center;
     padding: 25px;
-    max-width: 70%;
+    max-width: 80%;
     height: auto;
     overflow: hidden;
 }
-
-
 
 #pt-image {
     float: right;
@@ -201,7 +195,7 @@ h4 {
 /* Form */
 
 .form-image {
-    background: url("../images/best-mens-gym-t-shirts.jpg")
+    background: url("/assets/images/best-mens-gym-t-shirts.jpg")
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -309,8 +303,15 @@ footer {
 
 /* medium screens size from 950px wide and down */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 950px) {
 
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 1%;
+        line-height: 25px;
+    }
 }
 
 @media screen and (max-width: 768px) {
