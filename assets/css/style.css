@@ -176,9 +176,6 @@ h4 {
     padding: 25px 25px 25px 25px;
     height: auto;
 }
-
-
-
    
 /* Testimonials Page*/
 
@@ -346,7 +343,7 @@ footer {
     
 
     #logo {
-        margin: 0 auto;
+        margin: 10px auto 0;
         text-align: center;
     }
 
@@ -381,10 +378,10 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    /* small screens size from 6000px wide and down (phones) */
+    /* small screens size from 600px wide and down (phones) */
 
     #logo {
-        font-size: 280%;
+        font-size: 300%;
     }
 
     #menu {
@@ -416,3 +413,10 @@ footer {
     }
 
   }
+
+  @media screen and (max-width: 375px) {
+    /* small screens size from 375px wide and down (smaller phones) */
+
+    #logo {
+        font-size: 240%;
+    }
