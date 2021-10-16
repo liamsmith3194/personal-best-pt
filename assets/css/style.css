@@ -309,8 +309,7 @@ footer {
     .about-text h4 {
         font-size: 230%;
     }
-
-
+}
 
 /* medium screens size from 950px wide and down */
 
@@ -337,10 +336,9 @@ footer {
         margin: 0 auto;
     }
 }
+
 /* Tablet (ipad)*/
-@media screen and (max-width: 768px) {
-    
-    
+@media screen and (max-width: 768px) {  
 
     #logo {
         margin: 10px auto 0;
@@ -412,7 +410,7 @@ footer {
         height: 100px;
     }
 
-  }
+}
 
   @media screen and (max-width: 375px) {
     /* small screens size from 375px wide and down (smaller phones) */
@@ -420,3 +418,4 @@ footer {
     #logo {
         font-size: 240%;
     }
+}
