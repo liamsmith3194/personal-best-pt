@@ -56,7 +56,6 @@ h4 {
 header {
     height: 80px;
     top: 0;
-    position: -webkit-sticky;
     position: sticky;
     background-color: white;
     z-index: 1;
@@ -397,7 +396,6 @@ footer {
 
     header {
         height: 90px;
-
     }
 
     #logo {
@@ -437,6 +435,10 @@ footer {
   @media screen and (max-width: 375px) {
     /* small screens size from 375px wide and down (smaller phones) */
 
+    header {
+        height: 80px;
+    }
+
     #logo {
         font-size: 240%;
     }
@@ -445,8 +447,26 @@ footer {
 @media screen and (max-width: 320px) {
     /* small screens size from 320px wide and down (even smaller phones) (am i repsonsive) */
 
+    header {
+        height: 60px;
+    }
+
     #logo {
         font-size: 200%;
+    }
+
+    h2 {
+        font-size: 180%;
+        margin-bottom: 15px;
+    
+    }
+
+    h3 {
+        font-size: 160%;
+    }
+
+    .about-text h4 {
+        font-size: 160%;  
     }
 
     body {
