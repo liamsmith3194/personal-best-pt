@@ -419,3 +419,21 @@ footer {
         font-size: 240%;
     }
 }
+
+@media screen and (max-width: 320px) {
+    /* small screens size from 320px wide and down (even smaller phones) (am i repsonsive) */
+
+    #logo {
+        font-size: 200%;
+    }
+
+    body {
+        font-size: 70%;
+    }
+
+    #menu li{
+        font-size: 60%;
+        
+    }
+
+}
