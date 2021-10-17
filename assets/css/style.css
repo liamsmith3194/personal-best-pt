@@ -53,6 +53,15 @@ h4 {
 
 /* Home Page*/
 
+header {
+    height: 80px;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    z-index: 1;
+}
+
 #logo {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 350%;
@@ -63,6 +72,7 @@ h4 {
     padding-left: 30px;
     text-decoration: none;
     color: black;
+    
 }
 
 #hero-image {
@@ -105,10 +115,13 @@ h4 {
     margin-right: 30px;
     text-align: center;
     font-size: 90%;
+    
+
 }
 
 #menu a {
     color: black;
+    
 }
 
 #menu a:hover {
@@ -200,7 +213,7 @@ h4 {
 /* Form */
 
 .form-image {
-    background: url('../images/best-mens-gym-t-shirts.jpg');
+    background: url('../images/background-form-image.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,6 +328,10 @@ footer {
 
 @media screen and (max-width: 950px) {
 
+    header {
+        height: 120px;
+    }
+
     #menu {
         clear: left;
         float: left;
@@ -377,6 +394,11 @@ footer {
 
 @media screen and (max-width: 600px) {
     /* small screens size from 600px wide and down (phones) */
+
+    header {
+        height: 90px;
+
+    }
 
     #logo {
         font-size: 300%;
