@@ -13,9 +13,9 @@
 
     <!-- Favicon -->
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
     <link rel="manifest" href="./site.webmanifest">
 
     <!-- alt shift F aligns code -->
@@ -94,17 +94,19 @@
         </div>
     </section>
 
-    <!-- About me -->
+    <!-- About -->
 
     <div id="about">
         <h2 class="sub-heading">Why Us?</h2>
     </div>
 
     <section class="grid-container">
-        <img id="pt-image" src="./assets/images/personal-trainer-image.jpg" alt="image of personal trainer working out with a dumbbell">
+        <img id="pt-image" src="./assets/images/personal-trainer-image.jpg"
+            alt="image of personal trainer working out with a dumbbell">
 
         <div class="about-text">
             <h4>General</h4>
+            <br>
             We care deeply about our clients, and there’s nothing of more value to us than helping somebody go
             through
             an experience that makes them happy, confident and strong. <br> We realise how your body affects many
@@ -115,17 +117,17 @@
 
         <div class="about-text">
             <h4>Qualifications</h4>
+            <br>
             <i class="fas fa-dumbbell"></i> &nbsp; Level 4 Exercise Specialist &nbsp; <i class="fas fa-dumbbell"></i>
             <br>
-            <br>
             <i class="fas fa-dumbbell"></i> &nbsp; Level 3 Personal Trainer &nbsp; <i class="fas fa-dumbbell"></i>
-            <br>
             <br>
             <i class="fas fa-dumbbell"></i> &nbsp; Level 2 Gym Instructor &nbsp; <i class="fas fa-dumbbell"></i>
         </div>
 
         <div class="about-text">
             <h4>Finally</h4>
+            <br>
             If you are interested in getting started, fill in the <a href=#contact>form</a> below. <br> Yes, it takes
             motivation, determination, and consistency to succeed. Although it may not always be easy and you may
             face a few hurdles, you can be sure that you will eventually look at your body in a whole new light.
@@ -196,13 +198,8 @@
         <h2 class="sub-heading">Why not come see us?</h2>
     </div>
 
-    <form method="POST" action="anotherPage.php">  
-        <input type="text"/> 
-        <input type="submit"/> 
-       </form>
-
     <section class="form-image">
-        <form action= "submit.html" class="contact-form">
+        <form action="submit.html" class="contact-form">
 
             <h3>GET IN TOUCH</h3>
             <label for="full-name">Name:</label>
@@ -218,8 +215,8 @@
 
             <label for="goal-field">Goal:</label>
 
-            <select id="goal-field" type="text" class="text-input" name="goal" required>
-                <option>Please Select</option>
+            <select id="goal-field" class="text-input" name="goal" required>
+                <option value="">Please Select</option>
                 <option value="Lose Weight">To Lose Weight</option>
                 <option value="Gain Weight">To Gain Weight</option>
                 <option value="Injury Recovery">To Recovery from an Injury</option>
@@ -231,9 +228,9 @@
     </section>
 
     <div id="map">
-        <iframe
+        <iframe id="googlemap"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.416318276151!2d-0.916922184054213!3d52.25398466366147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48770e8cfb180835%3A0x9fd0125eb045ef27!2sPump%20Gyms%20Northampton!5e0!3m2!1sen!2suk!4v1632655061897!5m2!1sen!2suk"
-            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
     <!-- Footer -->
