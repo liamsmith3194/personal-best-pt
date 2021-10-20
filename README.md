@@ -77,7 +77,7 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliamsmith3194.github.io%2Fpersonal-best-pt%2F)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fliamsmith3194.github.io%2Fpersonal-best-pt)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -113,13 +113,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website has been displayed on various devices such as Desktop PC, iMac, Laptop, iPhoneX, iPad & iPad mini.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+-   Internet Explorer 
+    -   The injury recovery image does not display.
+    -   The sticky navigation bar does not move down with a mouse scroll.
+    -   Warning message - "You are using a browser that is not supported by the Google Maps JavaScript API. Please consider changing your browser."
+
+-   On mobile devices the submit button's styling is removed. As has the hover pseudo style.
     -   A white gap can be seen to the right of the footer and navigation bar as a result.
 -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
@@ -177,7 +182,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
@@ -185,17 +189,15 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
 ### Media
 
--   All Images were created by the developer.
+-   All Images were sourced from google.
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor for answering my questions throughout.
 
--   Tutor support at Code Institute for their support.
+-   Slack users for constructive feedback.
 
     
 

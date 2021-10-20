@@ -107,7 +107,7 @@ header {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     color: #FFFFFF;
-    bottom: 15%;
+    bottom: 15vw;
     position: absolute;
 }
 
@@ -209,7 +209,7 @@ header {
   }
 
 .testimonials {
-    width: 40%;
+    width: 20%;
     border: black;
     border-style: double;
     color: black;
@@ -321,6 +321,12 @@ footer {
     height: 300px;
 }
 
+.test {
+    display: none;
+
+}
+
+
   /* Media Queries */
 
     /* larger to medium screens size from 1200px wide and smaller */
@@ -330,8 +336,8 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
-.testimonials, .testimonials-container {
-    width: 100%;
+.testimonials {
+    width: 30%;
     }
 
     .about-text h4 {
@@ -367,6 +373,10 @@ footer {
         width: 100%;
         margin: 0 auto;
     }
+
+    .testimonials {
+        width: 100%;
+        }
 }
 
 /* Tablet (ipad)*/
@@ -409,6 +419,10 @@ footer {
         height: 200px;
     }    
 
+    .testimonials {
+        width: 100%;
+        }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -449,6 +463,10 @@ footer {
     .services-images {
         height: 100px;
     }
+
+    .testimonials {
+        width: 100%;
+        }
 
 }
 
