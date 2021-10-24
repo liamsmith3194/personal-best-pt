@@ -156,20 +156,17 @@ header {
 /* About Page*/
 
 .about-sections {
-    background-color: black;
     color: white;
     text-align: center;
     padding: 25px;
     margin-bottom: 25px;
-    height: auto;
 }
 
 .grid-container {
     background-color: black;
     width: 100%;
-    height: auto;
-    overflow: overlay;
-    margin-bottom: 25px;
+    margin: 25px 0;
+    position: relative;
 }
 
 .about-text {
@@ -177,8 +174,6 @@ header {
     text-align: center;
     padding: 25px;
     max-width: 80%;
-    height: auto;
-    overflow: hidden;
     line-height: 25px;
 }
 
@@ -188,6 +183,7 @@ header {
 }
 
 #pt-image {
+    width: 40%;
     float: right;
     padding: 25px 25px 25px 25px;
 }
@@ -456,6 +452,8 @@ width: 50%;
         float: unset;
         margin: 0 auto;
         display: block;
+        width: 40%;
+
         padding: 25px 25px 0 25px;
     }
 
