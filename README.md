@@ -86,7 +86,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
     Q1. As a first time vistor, I want a clear understanding of the purpose of the website.
 
-        Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
+        -   As soon as users enter the site, they are drawn to the hero image spread across the width of the screen with the tag line offer.Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
         2. The main points are made immediately with the hero image
         3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
 
