@@ -184,9 +184,15 @@ header {
 }
 
 #pt-image {
-    height: 550px;
+    width: 40%;
+    height: auto;
     float: right;
     padding: 25px 25px 25px 25px;
+}
+
+.image-box {
+    background-color: blue;
+    height: 200px;
 }
 
 /* Testimonials Page*/
@@ -415,13 +421,15 @@ footer {
 
   /* 4K screens size from 2560px wide and down */
 
+  @media screen and (max-width: 2560px) {
 
+  #pt-image {
+    width: 30%;
 
 
 
     /* larger to medium screens size from 1200px wide and smaller */
 
-    @media screen and (max-width: 1200px) {
 
 }
 
