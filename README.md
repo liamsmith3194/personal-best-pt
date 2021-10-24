@@ -1,4 +1,4 @@
-# Personal Best PT Website #
+# Personal Best PT #
 
 [View the live project here.](https://liamsmith3194.github.io/personal-best-pt/)
 
@@ -45,7 +45,7 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
 -   Use of opacity to unsure the text isn't overpowered by the imagery.
 
--   self explanatory contact from.
+-   self explanatory contact form.
 
 -   Interative Google Map.
 
@@ -61,7 +61,7 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 ### Frameworks, Libraries & Programs Used
 
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Bebas Neue' font into the style.css file which is used on logo and sub headings thorughout the site.
+    - Google fonts were used to import the 'Bebas Neue' and 'Montserrat' fonts into the style.css file.
 1. [Google Maps:](https://www.google.com/maps)
     - Google maps were used to show the company location and directions if needed.
 1. [Font Awesome:](https://fontawesome.com/)
@@ -86,29 +86,38 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
     Q1. As a first time vistor, I want a clear understanding of the purpose of the website.
 
-        -   As soon as users enter the site, they are drawn to the hero image spread across the width of the screen with the tag line offer.Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        -   As soon as users enter the site, they are drawn to the hero image spread across the width of the screen with the tag line offer.
+        -   Scrolling down there is a clear message showing what services are available from the use of clipped images and opacity captions.
+        -   The about section is presented cleanly, split into three sections with a nice use of icons around the qualifications. 
+        -   Immediately the use of shadow around the testimonial boxes stands out. A simple name and quote layout works well.
+        -   Again the subtle use of opcaity is the driving force behind the contact page with the main form standing out in white. The change of colour on hover is a nice touch epsically on the submit button.
 
     Q2. As a first time vistor, I want a consise description of the fitness goals this personal trainer concentrates on.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        -   This is very easy to see from the services section using the images and the short descriptions.
+        -   The contact form also links to the services on offer with the 'Goal' dropdown.
 
     Q3. As a first time vistor, I want the feel comfortable with the content and imagery I am are viewing.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+
+        -   There is no content from the site that would offend or make any user feel uncomfortable.
 
     Q4. As a first time vistor, I need to know where the company is based and how to get there.
+
+        -   At the bottom of the site, there is a map spread across the whole screen showing the location of company. This also has the option to show directions using the in-built link which opens in a new tab.   
 
     Q5. As a first time vistor, I want to know about the personal trainer
         - What qualifications does he have?
         - How long has the personal trainer been working for?
         - Why should I book a session?
 
+        -   The qualifications are clearly presented in the about section using the official titles and centred around dumbbel icons.
+        -   The very first sentence gives the users confidence based on the "over 15 years of personal training"
+        -   The final paragraph provides a handy link to the contact form and provides the first piece of motivational text in order to use said contact form.
+
     Q6. As a first time vistor, can I trust this person? Have they been reviewed well by previous clients are they numerous testimonials for me to look at. Do they have a social media presence which is regularly updated and followed.
+
+        -   All the testimonials posted are shown with first and seconds names and contain speech marks so that you know that they are direct quotes.
+        -   Links to Facebook, Twitter and Instagram are found at the bottom of the website and open in a new tab when clicked. Keeping them on the page after the form has been submited increases the continuity.
 
 ### Further Testing
 
@@ -182,12 +191,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   Navigation bar links to display futher down the page come from this post on [StackOverflow post](https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to)
-
--    
+-   Navigation bar links to display futher down the page come from this post on [StackOverflow](https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to). The use of a sticky navigation bar was blocking the subheading for each section when the navigation links were used.
 
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   The testimonials page was created using Flexbox from [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). This was used to enable the tablet screen size (and smaller) to view the testimonials as a list and one column. 
 
 ### Content
 
