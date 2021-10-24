@@ -173,8 +173,9 @@ header {
     color: white;
     text-align: center;
     padding: 25px;
-    max-width: 80%;
+    max-width: 60%;
     line-height: 25px;
+    overflow: auto;
 }
 
 .about-text a {
@@ -412,6 +413,10 @@ footer {
 
   /* Media Queries */
 
+  /* 4K screens size from 2560px wide and down */
+
+
+
     /* larger to medium screens size from 1200px wide and smaller */
 
     @media screen and (max-width: 1200px) {
@@ -423,13 +428,6 @@ footer {
     width: 30%;
     }
 
-    .about-text h4 {
-        font-size: 230%;
-    }
-
-    #pt-image {
-width: 50%;
-    }
 }
 
 /* medium screens size from 950px wide and down */
@@ -452,13 +450,11 @@ width: 50%;
         float: unset;
         margin: 0 auto;
         display: block;
-        width: 40%;
-
         padding: 25px 25px 0 25px;
     }
 
     .about-text {
-        width: 100%;
+        max-width: 100%;
         margin: 0 auto;
     }
 
