@@ -182,7 +182,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   Navigation bar links to display futher down the page come from this post on [StackOverflow post](https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to)
+
+-    
 
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
