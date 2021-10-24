@@ -184,7 +184,7 @@ header {
 }
 
 #pt-image {
-    width: 40%;
+    height: 550px;
     float: right;
     padding: 25px 25px 25px 25px;
 }
@@ -414,6 +414,8 @@ footer {
   /* Media Queries */
 
   /* 4K screens size from 2560px wide and down */
+
+
 
 
 
