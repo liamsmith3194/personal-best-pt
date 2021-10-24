@@ -48,7 +48,9 @@ h4 {
     margin-top: 1%;
     margin-bottom: 25px;
     background-color: white;
-
+    padding-top: 102px;
+margin-top: -102px;
+    
 }
 
 .thank-you {
@@ -168,13 +170,14 @@ header {
     text-align: center;
     padding: 25px;
     margin-bottom: 25px;
+    height: auto;
 }
 
 .grid-container {
     background-color: black;
     width: 100%;
     height: auto;
-    overflow: hidden;
+    overflow: overlay;
     margin-bottom: 25px;
 }
 
@@ -196,9 +199,8 @@ header {
 #pt-image {
     float: right;
     padding: 25px 25px 25px 25px;
-    height: auto;
 }
-   
+
 /* Testimonials Page*/
 
 .testimonials-container {
@@ -206,6 +208,7 @@ header {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 25px;
   }
 
 .testimonials {
@@ -219,6 +222,81 @@ header {
 }
 
 /* Contact Page*/
+
+/* Form */
+
+.form-image {
+    background: url('../images/background-form-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    margin: auto;
+    color: white;
+    font-size: 100%;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 70%;
+    padding: 30px;
+    height: 390px;
+}
+
+.text-input {
+    color: white;
+    width: 100%;
+    height: 25px;
+    margin: 5px 10px 20px 0;
+    background: transparent;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    display: inline-block;
+    font-family: 'montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 100%;
+}
+
+.text-input:hover {
+    border-color: black;
+    font-family: 'montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+option {
+    color: black;
+    font-size: 100%;
+    font-family: 'montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+option:hover {
+    color: white;
+    background-color: black;
+}
+
+::placeholder {
+    color: white;
+    font-size: 100%;
+    font-family: 'montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.submit-button {
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: white;
+    color: black;
+}
+
+.submit-button:hover {
+    background-color:black;
+    color: white;
+}
 
 /* Form */
 
@@ -321,10 +399,6 @@ footer {
     height: 300px;
 }
 
-.test {
-    display: none;
-
-}
 
 
   /* Media Queries */
@@ -342,6 +416,10 @@ footer {
 
     .about-text h4 {
         font-size: 230%;
+    }
+
+    #pt-image {
+width: 50%;
     }
 }
 
@@ -365,7 +443,6 @@ footer {
         float: unset;
         margin: 0 auto;
         display: block;
-        width: 60%;
         padding: 25px 25px 0 25px;
     }
 
