@@ -6,7 +6,7 @@ Welcome to the Personal Best PT website! Created to attract new and regular gym 
 Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
 
-<h2 align="center"><img src="https://i.ibb.co/GMCw8sT/am-i-responsive.png"></h2>
+ ![Am I Responsive](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/am-i-responsive.PNG)
 
 ## User Experience (UX)
 
@@ -37,9 +37,17 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
 -   ### Wireframes
 
-    -   Figma Desktop Wireframe - [View](https://www.figma.com/file/tCFc2KjZXoKyhLA5IGsVam/Code-Institute-Portfolio-1?node-id=0%3A1)
+    -   Figma Desktop Wireframe - [View](https://www.figma.com/file/tCFc2KjZXoKyhLA5IGsVam/Personal-Best-PT---Desktop?node-id=0%3A1)
 
+    ![Figma Desktop Wireframe](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/wireframe-desktop.PNG)
+
+    -   Figma Mobile Wireframe -  [View](https://www.figma.com/file/0uCPRyZDasqJDNoAYLb52I/Personal-Best-PT---Mobile)
+
+    ![Figma Mobile Wireframe](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/wireframe-mobile-1.PNG)
+    ![Figma Mobile Wireframe](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/wireframe-mobile-2.PNG)
+    
 ## Features
+Below is a brief overview of the website page by page and it's main features.
 
 -   ### Landing Page ###
 
@@ -48,11 +56,15 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
     -   Hero image with tag-line across a banner with opacity to make the offer stand out.
 
+    ![Landing Page](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/header.PNG)
+
 -   ### Services Page ###
 
     -   The services section provides the continuity from the landing page by using white text on a image and central banner across the width of the screen and same opacity values.
 
     -   The white text ensures the imagery isn't too overpowering.
+
+    ![Services Page](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/services-section.PNG)
 
 -   ### About Page ###
 
@@ -61,9 +73,13 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
     -   Followed by the personal trainers' qualifications, separated by dumbbell icons.
     -   A link to the contact form is provided underneath and short motivation paragraph.
 
+    ![About Page](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/about-section.PNG)
+
 -   ### Testimonals Page ###
     -   Six direct quotes have been used from past and present clients providing their full names.
     -   These are made to stand out by using a double lined border and drop shadow.
+
+    ![Testimonials Page](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/testimonials-section.PNG)
 
 -   ### Contact Page ###
     -   Returning to the earlier theme of image and opacity the contact form is easy read and use, with standard personal information and then a dropdown choice for the goal of this user. 
@@ -71,35 +87,39 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
     -   An interactive map is shown below the form with the option to expand or use directions.
     -   The footer contains links to social media such as Facebook, Twitter and Instagram.
 
+    ![Contact Page](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/contact-section.PNG)
+
 -   ### Submit Page ###
     -   Created to give the user piece of mind that the form filled out has been sent successfully.
     -   The header and footer remain on this separate html.
 
+    ![Submit Page](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/submit-page.PNG)
+
 ## Technologies Used
 
-### Languages Used
+### Created by using:
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   HTML5
+-   CSS3
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Bebas Neue' and 'Montserrat' fonts into the style.css file.
+    - Google fonts were used to import the 'Bebas Neue' (headings and sub-heading) and 'Montserrat' (body) fonts into the style.css file.
 1. [Google Maps:](https://www.google.com/maps)
-    - Google maps were used to show the company location and directions if needed.
+    - Google maps was used to show the company location and directions if needed.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on one or two headings and sub headings for a fun attractive effect. Social media and dumbbell icons also used from Font Awesome.
+    - Font Awesome was used for the social media icons in the footer and dumbbell icons around the qualifications.
 1. [Gitpod](https://gitpod.io/)
-    - Gitpod was used for the general creation of the site and version control by utilizing the terminal to commit to Git and Push to GitHub.
+    - Gitpod was used to create and update the website throughout via the terminal to push changes to Github.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Gitpod.
+    - GitHub was used to embed the site and store all imagery.
 1. [Figma:](https://figma.com/)
     - Figma was used to create the wireframes during the design process.
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliamsmith3194.github.io%2Fpersonal-best-pt%2F)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fliamsmith3194.github.io%2Fpersonal-best-pt)
