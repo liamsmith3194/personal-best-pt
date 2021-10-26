@@ -205,7 +205,7 @@ GitHub was the program used to deploy the the site, it was accomplished by using
 
 ### Code
 
--   The sub-headings use padding and margin (top), this ensures when using the navigation bar links, the sub-headings are displayed further down the page. This came from this post on [StackOverflow](https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to). 
+-   The sub-headings use padding and margin (top), this ensures when using the navigation bar links, the sub-headings are displayed futher down the page. This came from this post on [StackOverflow](https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to). 
 
 -   Below is a screenshot showing the result **before** the StackOverflow Code:
 

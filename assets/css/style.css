@@ -497,6 +497,22 @@ footer {
     }
 }
 
+@media screen and (max-width: 360px) {
+    /* small screens size from 360px wide and down (Moto G4 phones) */
+
+    header {
+        height: 80px;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    #logo {
+        font-size: 240%;
+    }
+}
+
 @media screen and (max-width: 320px) {
     /* small screens size from 320px wide and down (even smaller phones) (am i repsonsive) */
 
@@ -522,7 +538,7 @@ footer {
     }
 
     body {
-        font-size: 70%;
+        font-size: 12px;
     }
 
     #menu li {
