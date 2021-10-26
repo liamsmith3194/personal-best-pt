@@ -15,14 +15,14 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
     -   #### First Time Visitor Goals
 
 1. As a first time vistor, I want a clear understanding of the purpose of the website.
-2. As a first time vistor, I want a consise description of the fitness goals this personal trainer concentrates on.
-3. As a first time vistor, I want the feel comfortable with the content and imagery I am are viewing.
+2. As a first time vistor, I want a concise description of the fitness goals this personal trainer concentrates on.
+3. As a first time vistor, I want to feel comfortable with the content and imagery I am viewing.
 4. As a first time vistor, I need to know where the company is based and how to get there.
 5. As a first time vistor, I want to know about the personal trainer
     - What qualifications does he have?
     - How long has the personal trainer been working for?
     - Why should I book a session?
-6. As a first time vistor, can I trust this person? Have they been reviewed well by previous clients are they numerous testimonials for me to look at. Do they have a social media presence which is regularly updated and followed.
+6. As a first time vistor, can I trust this person? Have there been reviewed well by previous clients are there numerous testimonials for me to look at. Do they have a social media presence which is regularly updated and followed?
         
 
 -   ### Design
@@ -30,10 +30,10 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
     -   #### Colour Scheme
         -   A minimal but clean colour scheme used with just two main colours being black and white.
     -   #### Typography
-        -   The striking Bebas Neue typeface works really well with conserative Montserrat; used for the main body of the website. The difference in style creates a clean modern look and feel. Both typefaces have a fallback of sans-serif incase of any import issues.
+        -   The striking Bebas Neue typeface works really well with conservative Montserrat; used for the main body of the website. The difference in style creates a clean modern look and feel. Both typefaces have a fallback of sans-serif incase of any import issues.
     -   #### Imagery
         -   The first thing you see is the background hero image and horizontal tag line, designed to stun the vistor's attention and draw them in to see what is on offer.
-        - The use of opacity and imagery increases the clean and consise theme of the website but still informing the user of the options available.
+        - The use of opacity and imagery increases the clean and concise theme of the website but still informing the user of the options available.
 
 -   ### Wireframes
 
@@ -81,7 +81,7 @@ Below is a brief overview of the website page by page and it's main features.
     ![Testimonials Page](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/testimonials-section.PNG)
 
 -   ### Contact Page ###
-    -   Returning to the earlier theme of image and opacity the contact form is easy read and use, with standard personal information and then a dropdown choice for the goal of this user. 
+    -   Returning to the earlier theme of image and opacity the contact form is easy to read and use, with standard personal information and then a dropdown choice for the goal of this user. 
     -   The options link back to the services on offer from the services section.
     -   An interactive map is shown below the form with the option to expand or use directions.
     -   The footer contains links to social media such as Facebook, Twitter and Instagram.
@@ -137,12 +137,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to ensure ther
     -   Immediately the use of shadow around the testimonial boxes stands out. A simple name and quote layout works well.
     -   Again the subtle use of opcaity is the driving force behind the contact page with the main form standing out in white. The change of colour on hover is a nice touch especially on the submit button.
 
-    Q2. As a first time vistor, I want a consise description of the fitness goals this personal trainer concentrates on.
+    Q2. As a first time vistor, I want a concise description of the fitness goals this personal trainer concentrates on.
 
     -   This is very easy to see from the services section using the images and the short descriptions.
     -   The contact form also links to the services on offer with the 'Goal' dropdown.
 
-    Q3. As a first time vistor, I want the feel comfortable with the content and imagery I am are viewing.
+    Q3. As a first time vistor, I want to feel comfortable with the content and imagery I am viewing.
 
     -   There is no content from the site that would offend or make any user feel uncomfortable.
 
@@ -155,11 +155,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to ensure ther
     2.  How long has the personal trainer been working for?
     3.  Why should I book a session?
 
-    -   The qualifications are clearly presented in the about section using the official titles and centred around dumbbel icons.
+    -   The qualifications are clearly presented in the about section using the official titles and centred around dumbbell icons.
     -   The very first sentence gives the users confidence based on the "over 15 years of personal training"
     -   The final paragraph provides a handy link to the contact form and provides the first piece of motivational text in order to use said contact form.
 
-    Q6. As a first time vistor, can I trust this person? Have they been reviewed well by previous clients are they numerous testimonials for me to look at. Do they have a social media presence which is regularly updated and followed.
+    Q6. As a first time vistor, can I trust this person? Have they been reviewed well by previous clients are there numerous testimonials for me to look at. Do they have a social media presence which is regularly updated and followed.
 
     -   All the testimonials posted are shown with first and seconds names and contain speech marks so that you know that they are direct quotes.
     -   Links to Facebook, Twitter and Instagram are found at the bottom of the website and open in a new tab when clicked. Keeping them on the page after the form has been submited increases the continuity.
@@ -188,7 +188,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to ensure ther
 
 GitHub was the program used to deploy the the site, it was accomplished by using the following steps:
 
-1. Log in to GitHub and select the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and select the GitHub Repository.
 ![GitHub Repository](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-repo.PNG)
 2. At the top of the page towards the middle of the screen you will see a "Settings" menu item with a cog icon.
 ![GitHub Settings](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-settings.PNG)
@@ -205,7 +205,7 @@ GitHub was the program used to deploy the the site, it was accomplished by using
 
 ### Code
 
--   The sub-headings use padding and margin top this ensures when using the naigation bar links the sub-headings are displayed futher down the page. This came from this post on [StackOverflow](https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to). 
+-   The sub-headings use padding and margin (top), this ensures when using the navigation bar links, the sub-headings are displayed further down the page. This came from this post on [StackOverflow](https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to). 
 
 -   Below is a screenshot showing the result **before** the StackOverflow Code:
 
