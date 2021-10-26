@@ -125,6 +125,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to ensure ther
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliamsmith3194.github.io%2Fpersonal-best-pt%2F)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fliamsmith3194.github.io%2Fpersonal-best-pt)
 
+### Lighthouse Testing ###
+
+Intial lighthouse socres produced a performance of 75 and accessibilty of 96. After exporting all images to webp files and giving the iframe element a title it improved to 84 and 98 respectively.
+
+![Lighthouse Results](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/lighthouse.PNG)
+
+
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
