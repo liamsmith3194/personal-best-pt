@@ -118,6 +118,8 @@ Below is a brief overview of the website page by page and it's main features.
 
 ## Testing
 
+### Validator Testing ###
+
 The W3C Markup Validator and W3C CSS Validator Services were used to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliamsmith3194.github.io%2Fpersonal-best-pt%2F)
@@ -187,7 +189,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to ensure ther
 GitHub was the program used to deploy the the site, it was accomplished by using the following steps:
 
 1. Log in to GitHub and select the [GitHub Repository](https://github.com/)
-[GitHub Repository](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-repro.PNG)
+[GitHub Repository](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-repo.PNG)
 2. At the top of the page towards the middle of the screen you will see a "Settings" menu item with a cog icon.
 [GitHub Settings](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-settings.PNG)
 3. On the left hand side is a vertical list locate and click "Pages".
@@ -199,11 +201,15 @@ GitHub was the program used to deploy the the site, it was accomplished by using
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 [GitHub Publish](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-published.PNG)
 
-## Credits
+## References
 
 ### Code
 
--   Navigation bar links to display futher down the page come from this post on [StackOverflow](https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to). The use of a sticky navigation bar was blocking the subheading for each section when the navigation links were used.
+-   The sub-headings use padding and margin top this ensures when using the naigation bar links the sub-headings are displayed futher down the page. This came from this post on [StackOverflow](https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to). 
+
+[Before StackOverflow Code](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/before-heading-fix.PNG)
+
+[After StackOverflow Code](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/after-heading-fix.PNG)
 
 -   The testimonials page was created using Flexbox from [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). This was used to enable the tablet screen size (and smaller) to view the testimonials as a list and one column. 
 
