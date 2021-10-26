@@ -43,8 +43,7 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
     -   Figma Mobile Wireframe -  [View](https://www.figma.com/file/0uCPRyZDasqJDNoAYLb52I/Personal-Best-PT---Mobile)
 
-    ![Figma Mobile Wireframe](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/wireframe-mobile-1.PNG)
-    ![Figma Mobile Wireframe](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/wireframe-mobile-2.PNG)
+    ![Figma Mobile Wireframe](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/wireframe-mobile-1.PNG)    ![Figma Mobile Wireframe](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/wireframe-mobile-2.PNG)
     
 ## Features
 Below is a brief overview of the website page by page and it's main features.
