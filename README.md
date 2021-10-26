@@ -189,17 +189,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to ensure ther
 GitHub was the program used to deploy the the site, it was accomplished by using the following steps:
 
 1. Log in to GitHub and select the [GitHub Repository](https://github.com/)
-[GitHub Repository](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-repo.PNG)
+![GitHub Repository](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-repo.PNG)
 2. At the top of the page towards the middle of the screen you will see a "Settings" menu item with a cog icon.
-[GitHub Settings](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-settings.PNG)
+![GitHub Settings](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-settings.PNG)
 3. On the left hand side is a vertical list locate and click "Pages".
-[GitHub Pages](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-pages.PNG)
+![GitHub Pages](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-pages.PNG)
 4. Under the "Source" sub-heading, click on the dropdown by default "None" and choose "main".
-[GitHub Source](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-source.PNG)
+![GitHub Source](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-source.PNG)
 5. Click "Save"
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
-[GitHub Publish](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-published.PNG)
+![GitHub Publish](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-published.PNG)
 
 ## References
 
@@ -207,9 +207,14 @@ GitHub was the program used to deploy the the site, it was accomplished by using
 
 -   The sub-headings use padding and margin top this ensures when using the naigation bar links the sub-headings are displayed futher down the page. This came from this post on [StackOverflow](https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to). 
 
-[Before StackOverflow Code](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/before-heading-fix.PNG)
+-   Below is a screenshot showing the result **before** the StackOverflow Code:
 
-[After StackOverflow Code](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/after-heading-fix.PNG)
+![Before StackOverflow Code](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/before-heading-fix.PNG)
+
+-   Below is a screenshot showing the result **after** the StackOverflow Code:
+
+
+![After StackOverflow Code](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/after-heading-fix.PNG)
 
 -   The testimonials page was created using Flexbox from [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). This was used to enable the tablet screen size (and smaller) to view the testimonials as a list and one column. 
 
