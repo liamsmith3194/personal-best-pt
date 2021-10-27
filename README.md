@@ -1,18 +1,15 @@
 # Personal Best PT #
 
-For deployed Website [Click here.](https://liamsmith3194.github.io/personal-best-pt/)
+For the deployed Website [Click here.](https://liamsmith3194.github.io/personal-best-pt/)
 
 Welcome to the Personal Best PT website! Created to attract new and regular gym goers to try personal training, no matter what their goals are.
 Responsively designed to dispaly on a range of devices from desktops to mobiles.
-
 
  ![Am I Responsive](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/am-i-responsive.PNG)
 
 ## User Experience (UX)
 
--   ### User stories
-
-    -   #### First Time Visitor Goals
+### First Time Visitor Goals
 
 1. As a first time vistor, I want a clear understanding of the purpose of the website.
 2. As a first time vistor, I want a concise description of the fitness goals this personal trainer concentrates on.
@@ -94,7 +91,7 @@ Below is a brief overview of the website page by page and it's main features.
 
     ![Submit Page](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/submit-page.PNG)
 
-## Technologies Used
+## Technologies
 
 ### Created by using:
 
@@ -176,14 +173,14 @@ Intial lighthouse socres produced a performance of 75 and accessibilty of 96. Af
     -   All the testimonials posted are shown with first and seconds names and contain speech marks so that you know that they are direct quotes.
     -   Links to Facebook, Twitter and Instagram are found at the bottom of the website and open in a new tab when clicked. Keeping them on the page after the form has been submited increases the continuity.
 
-### Further Testing
+### Continued Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website has been displayed on various devices such as Desktop PC, iMac, Laptop, iPhoneX, iPad & iPad mini.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+### Glitches
 
 -   Internet Explorer 
     -   The injury recovery image does not display.
@@ -201,16 +198,24 @@ Intial lighthouse socres produced a performance of 75 and accessibilty of 96. Af
 GitHub was the program used to deploy the the site, it was accomplished by using the following steps:
 
 1. Log in to GitHub and select the GitHub Repository.
+
 ![GitHub Repository](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-repo.PNG)
+
 2. At the top of the page towards the middle of the screen you will see a "Settings" menu item with a cog icon.
+
 ![GitHub Settings](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-settings.PNG)
 3. On the left hand side is a vertical list locate and click "Pages".
+
 ![GitHub Pages](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-pages.PNG)
+
 4. Under the "Source" sub-heading, click on the dropdown by default "None" and choose "main".
+
 ![GitHub Source](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-source.PNG)
+
 5. Click "Save"
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
 ![GitHub Publish](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/github-published.PNG)
 
 ## References
@@ -230,17 +235,19 @@ GitHub was the program used to deploy the the site, it was accomplished by using
 
 -   The testimonials page was created using Flexbox from [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). This was used to enable the tablet screen size (and smaller) to view the testimonials as a list and one column. 
 
+-   The blurred shadow effect used on the testimonials was taken from [w3schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp), but amended to the developers criteria in terms of colour, depth and strength.
+
 ### Content
 
 -   All content was written by the developer.
 
-### Media
+### Digital Artwork
 
 -   All Images were sourced from google.
 -   [Dumbbell](https://fontawesome.com/v5.15/icons/dumbbell), [Facebook](https://fontawesome.com/v5.15/icons/facebook?style=brands), [Twitter](https://fontawesome.com/v5.15/icons/twitter?style=brands) and [Instagram](https://fontawesome.com/v5.15/icons/instagram?style=brands) icons were sourced from Font Awesome.
 -   The map was sourced from [google maps](https://www.google.com/maps/place/Pump+Gyms+Northampton/@52.253981,-0.914734,16z/data=!4m5!3m4!1s0x0:0x9fd0125eb045ef27!8m2!3d52.2539814!4d-0.9147335?hl=en) using the location of Pump Gyms Northampton 
 
-### Acknowledgements
+### Mentions
 
 -   My Mentor for answering my questions throughout.
 
