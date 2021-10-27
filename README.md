@@ -124,7 +124,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to ensure ther
 
 ### Lighthouse Testing ###
 
-Intial lighthouse socres produced a performance of 75 and accessibilty of 96. After exporting all images to webp files and giving the iframe element a title it improved to 88 and 98 respectively.
+Intial lighthouse socres produced a performance of 75 and accessibilty of 96. After exporting all images to webp files and giving the iframe element a title it improved to 94 (mobile) and 98 respectively.
 
 -   Mobile Results
 
