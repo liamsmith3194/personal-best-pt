@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-/* all content*/
 
 * {
     text-decoration: none;
@@ -10,8 +9,6 @@
     border: none;
     
 }
-
-/* Text */
 
 body {
     font-size: 100%;
@@ -53,8 +50,6 @@ h4 {
     
 }
 
-/* Home Page*/
-
 header {
     height: 80px;
     top: 0;
@@ -84,18 +79,6 @@ header {
     margin-bottom: 25px;
 }
 
-#hero-image img{
-    animation-name: example;
-    animation-duration: 4s;
-}
-
-/*
-@keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-  }
-  */
-
 .tag-heading {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -103,8 +86,6 @@ header {
     bottom: 15vw;
     position: absolute;
 }
-
-/* Menu bar*/
 
 #menu {
     line-height: 500%;
@@ -116,8 +97,6 @@ header {
     margin-right: 30px;
     text-align: center;
     font-size: 90%;
-    
-
 }
 
 #menu a {
@@ -128,8 +107,6 @@ header {
 #menu a:hover {
     border-bottom: 1px solid #000000;
 }
-
-/* Services Page*/
 
   .services-images {
     width: 100%;
@@ -153,7 +130,6 @@ header {
     color: #FFFFFF;
   }
 
-/* About Page*/
 
 .about-sections {
     color: white;
@@ -196,7 +172,6 @@ header {
     height: 200px;
 }
 
-/* Testimonials Page*/
 
 .testimonials-container {
     display: flex;
@@ -215,10 +190,6 @@ header {
     margin: 0 25px 25px 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
-
-/* Contact Page*/
-
-/* Form */
 
 .form-image {
     background: url('../images/background-form-image.webp');
@@ -308,8 +279,6 @@ option:hover {
     font-size: 200%;
 }
 
-/* Social Media*/
-
 footer {
     height: auto;
 }
@@ -342,11 +311,6 @@ footer {
 }
 
 
-
-  /* Media Queries */
-
-  /* 4K screens size from 2560px wide and down */
-
   @media screen and (max-width: 2560px) {
 
   #pt-image {
@@ -361,8 +325,6 @@ footer {
     }
 
 }
-
-/* medium screens size from 950px wide and down */
 
 @media screen and (max-width: 950px) {
 
@@ -395,7 +357,6 @@ footer {
         }
 }
 
-/* Tablet (ipad)*/
 @media screen and (max-width: 768px) {  
 
     #logo {
@@ -442,7 +403,6 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    /* small screens size from 600px wide and down (phones) */
 
     header {
         height: 90px;
@@ -486,7 +446,6 @@ footer {
 }
 
   @media screen and (max-width: 375px) {
-    /* small screens size from 375px wide and down (smaller phones) */
 
     header {
         height: 80px;
@@ -498,7 +457,6 @@ footer {
 }
 
 @media screen and (max-width: 360px) {
-    /* small screens size from 360px wide and down (Moto G4 phones) */
 
     header {
         height: 80px;
@@ -514,7 +472,6 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
-    /* small screens size from 320px wide and down (even smaller phones) (am i repsonsive) */
 
     header {
         height: 60px;
