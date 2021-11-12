@@ -34,11 +34,11 @@ Responsively designed to dispaly on a range of devices from desktops to mobiles.
 
 -   ### Wireframes
 
-    -   Figma Desktop Wireframe - [View](https://www.figma.com/file/tCFc2KjZXoKyhLA5IGsVam/Personal-Best-PT---Desktop?node-id=0%3A1)
+    -   Figma Desktop Wireframe - [View](https://www.figma.com/file/ciXYUYV361qot5MCN7Z5hF/Rock%2C-Paper%2C-Scissors-Shoot---Desktop?node-id=0%3A1)
 
     ![Figma Desktop Wireframe](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/wireframe-desktop.PNG)
 
-    -   Figma Mobile Wireframe -  [View](https://www.figma.com/file/0uCPRyZDasqJDNoAYLb52I/Personal-Best-PT---Mobile)
+    -   Figma Mobile Wireframe -  [View](https://www.figma.com/file/EtSRFMgeaP0ACLVRtgNXmQ/Rock%2C-Paper%2C-Scissors-Shoot---Mobile?node-id=0%3A1)
 
     ![Figma Mobile Wireframe](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/wireframe-mobile-1.PNG)    ![Figma Mobile Wireframe](https://raw.githubusercontent.com/liamsmith3194/personal-best-pt/main/assets/readme-images/wireframe-mobile-2.PNG)
     
